@@ -13,16 +13,14 @@
 }
 body {
     
+    body 
     margin: 0;
-    height: 100vh;
-    overflow: hidden;
 
-   background-color: black;
+    background-color: black;
     color: rgb(255, 251, 251);
 
     font-family: Arial, sans-serif;
 }
-
 .stars {
     position: absolute;
     width: 100%;
@@ -141,4 +139,40 @@ min-height: 100vh;
     margin-top: 20px;
 
     font-size: 20px;
+}
+.letter-page {
+    margin: 0;
+    min-height: 100vh;
+    background: black;
+    color: white;
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.letter-box {
+    width: 70%;
+    max-width: 700px;
+
+    padding: 40px;
+    border-radius: 20px;
+
+    background: rgba(255,255,255,0.08);
+    box-shadow: 0 0 30px rgba(255,255,255,0.15);
+
+    line-height: 1.8;
+}
+
+.letter-box h1 {
+    font-size: 36px;
+}
+
+.letter-box p {
+    font-size: 18px;
+}
+
+.letter-box a {
+    color: white;
 }
